@@ -15,6 +15,6 @@ const registerCustomDatePickerIOS = (CustomDatePickerIOS) => {
 
 export {
   Picker,
-  DatePickerComponent as DatePicker
+  DatePickerComponent as DatePicker,
   registerCustomDatePickerIOS
 }
