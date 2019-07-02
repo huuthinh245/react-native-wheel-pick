@@ -14,8 +14,18 @@ const styles = StyleSheet.create({
   },
 });
 
+export interface PickerProps {
+  textColor?: ColorPropType,
+  textSize?: Number,
+  itemSpace?: Number,
+  itemStyle?: ViewPropTypes.style,
+  onValueChange: PropTypes.func.isRequired,
+  pickerData: string[],
+  style?: ViewPropTypes.style,
+  selectedValue: any,
+}
 
-export default class Picker extends Component {
+export default class Picker extends Component<PickerProps> {
   static propTypes = {
     textColor: ColorPropType,
     textSize: PropTypes.number,
