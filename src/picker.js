@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ColorPropType, StyleSheet, View, ViewPropTypes as RNViewPropTypes, Text } from 'react-native';
+import { ColorPropType, StyleSheet, View, StyleProp, ViewStyle, Text,   } from 'react-native';
 import PropTypes from 'prop-types';
 import WheelCurvedPicker from './WheelCurvedPicker';
 
@@ -18,10 +18,10 @@ export interface PickerProps {
   textColor?: ColorPropType,
   textSize?: Number,
   itemSpace?: Number,
-  itemStyle?: ViewPropTypes.style,
-  onValueChange: PropTypes.func.isRequired,
+  itemStyle?: StyleProp<ViewStyle>,
+  onValueChange?: void,
   pickerData: string[],
-  style?: ViewPropTypes.style,
+  style?: StyleProp<ViewStyle>,
   selectedValue: any,
 }
 
