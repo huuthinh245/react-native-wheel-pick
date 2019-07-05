@@ -3,7 +3,7 @@ import { ColorPropType, StyleSheet, View, StyleProp, ViewStyle, Text,   } from '
 import PropTypes from 'prop-types';
 import WheelCurvedPicker from './WheelCurvedPicker';
 
-const ViewPropTypes = RNViewPropTypes || View.propTypes;
+const ViewPropTypes =  View.propTypes;
 
 const PickerItem = WheelCurvedPicker.Item;
 
