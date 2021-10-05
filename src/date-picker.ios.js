@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import { DatePickerIOS } from 'react-native';
+import DateTimePicker from '@react-native-community/datetimepicker';
 import PropTypes from 'prop-types';
 
 export default class DatePicker extends PureComponent {
@@ -22,9 +22,9 @@ export default class DatePicker extends PureComponent {
 
   render() {
     return (
-      <DatePickerIOS
+      <DateTimePicker
         {...this.props}
-        onDateChange={this.onDateChange}
+        onChange={this.onDateChange}
         date={this.state.date}
       />
     );
@@ -40,7 +40,7 @@ export default class DatePicker extends PureComponent {
     }
   }
 
-  onDateChange = (date) => {
+  onDateChange = (event, date) => {
     this.setState({ date });
     this.props.onDateChange(date);
   }
