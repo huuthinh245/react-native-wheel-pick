@@ -1,8 +1,8 @@
 # react-native-wheel-pick
 
-React native wheel picker for both iOS and android. (Support DatePicker)
-Date picker ios move to https://github.com/react-native-datetimepicker/datetimepicker
-PickerIOS move to https://github.com/react-native-picker/picker
+React native wheel picker for both iOS and android. (Support DatePicker) <br>
+Date picker ios move to https://github.com/react-native-datetimepicker/datetimepicker  <br>
+PickerIOS move to https://github.com/react-native-picker/picker  <br>
 This is not original but inspire by  [react-native-wheel-datepicker](https://github.com/pinguinjkeke/react-native-wheel-datepicker)
 
 ![](https://preview.ibb.co/iUjDZo/screen1.png)
