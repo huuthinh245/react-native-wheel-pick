@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/TronNatthakorn/react-native-wheel-pick#readme",
   "dependencies": {
-    "@react-native-community/datetimepicker": "^3.5.2",
     "@react-native-picker/picker": "^2.1.0",
     "moment": "^2.19.1"
   },
